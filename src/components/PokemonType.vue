@@ -1,16 +1,24 @@
 <template>
   <div class="type-container">
     <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
+      <li v-for="pokemon in pokemons"
+          :key="pokemon.id"
+          @click="$emit('selection', pokemon.id)">
+          {{pokemon.name}}
+      </li>
+      
     </ul>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    pokemons: {
+      type: Array,
+      required: true
+    }
+  }
 
 }
 </script>
@@ -38,6 +46,7 @@ export default {
   .type-container {
       display: flex;
       justify-content: center;
+      margin-top: 30px;
   }
 
 </style>

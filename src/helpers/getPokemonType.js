@@ -1,5 +1,5 @@
 
-import {pokemonApi} from '../api/pokemonApi';
+import pokemonApi from '../api/pokemonApi';
 
 const getPokemon = () => {
 
@@ -17,6 +17,9 @@ const getPokemonType = async () => {
 };
 
 const getPokemonNames = async ([a,b,c,d] = [] ) => {
+
+       const resp = await pokemonApi.get(`/3`)
+    console.log(resp.data.name, resp.data.id)
 
     const promiseArr = [
         pokemonApi.get(`/${a}`),
