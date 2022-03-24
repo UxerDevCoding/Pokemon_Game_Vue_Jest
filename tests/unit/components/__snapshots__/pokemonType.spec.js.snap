@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonsType Component should match with the snapshot 1`] = `
+<div class="type-container">
+  <ul>
+    <li>bulbasaur</li>
+    <li>ivysaur</li>
+    <li>venusaur</li>
+    <li>charmander</li>
+  </ul>
+</div>
+`;
