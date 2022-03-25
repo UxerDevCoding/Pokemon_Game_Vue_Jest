@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPage Component should match to snapchot when pokemons are loaded 1`] = `
+<h1> Cargando ...</h1>
+<!--v-if-->
+`;
+
+exports[`PokemonPage Component should match with the snapshot 1`] = `
+<h1> Cargando ...</h1>
+<!--v-if-->
+`;
