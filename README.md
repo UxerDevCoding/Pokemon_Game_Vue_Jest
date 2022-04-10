@@ -34,8 +34,10 @@ https://pokeapi.co/
 ### Deploy URL
 https://pokemonguessgame.netlify.app/
 
+
 ### Notes
 Inspired by a practice from the course "Vue.js: Zero to Expert" from Udemy
+
 
 ### Author
 Omar Hevia
